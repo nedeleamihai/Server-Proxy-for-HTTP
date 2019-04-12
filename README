@@ -1,0 +1,7 @@
+Se va trimite catre server requestul cu comanda GET sau POST.
+Vom creea un nou proces folosind fork(). Daca a fost creeat un nou proces copil functia va returna 0.
+Vom verifica daca requestul incepe cu GET sau POST daca nu va trimite catre socket codul de eroare 400.
+Pentru a obtine hostul site ului folosim comanda gethostbyname.
+Ne vom conecta apoi la un nou socket.
+Vom trimite catre socket requestul.
+
